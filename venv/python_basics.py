@@ -50,16 +50,18 @@ for k in range(len(b)):
 
 # calculate average of even and odd numbers
 # and print them if exits
-
+print()
 if evenCount != 0:
     avgEven = evenSum / evenCount
-    print('Average of even numbers is :')
-    print(avgEven)
+    print('Average of even numbers is %i: '%avgEven)
+    #print('Average of even numbers is :')
+    #print(avgEven)
 else:
     print('No even numbers this time.')
 if oddCount != 0:
     avgOdd = oddSum / oddCount
-    print('Average of odd numbers is :')
-    print(avgOdd)
+    print('Average of odd numbers is %i : ' %avgOdd)
+    #print('Average of odd numbers is :')
+    #print(avgOdd)
 else:
     print('No odd numbers this time.')
